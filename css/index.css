@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: grab;
+}
+
+
+#puzzle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.results {
+    top: -50px;
+    left: calc(100% / 2 - 100px);
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fafafa;
+    padding: 0;
+    
+    box-shadow: 0 -8px 0 8px #d32f2f inset;
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.message {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 170px;
+    font-size: xx-large;
+    color: #263238;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show {
+    transform: translateY(-100%);
+}
+
+.div-restart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.btn-restart {
+    outline: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #263238;
+    border: 6px solid #d32f2f;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    box-sizing:border-box;
+}
+
+.btn-restart:active {
+    background-color: #d32f2f;
+    border: 5px solid white;
+    box-shadow: 0 0 0 0.5px #263238;
+    font-size: 16px;
+    color: white;
+}

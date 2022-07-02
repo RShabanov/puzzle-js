@@ -1,2 +1,2 @@
 # puzzle-js
-https://shabanovr.github.io/puzzle-js/
+https://rshabanov.github.io/puzzle-js/
